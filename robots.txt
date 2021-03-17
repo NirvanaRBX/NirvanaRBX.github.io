@@ -1,0 +1,2 @@
+Disallow: /monaco.html
+Disallow: /invite.html
