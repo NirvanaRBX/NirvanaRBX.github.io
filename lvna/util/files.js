@@ -20,8 +20,13 @@ const PROJECTS = format(`
 * School
 `);
 
+const BYPASS = format(`
+https://discord.gg/mk5qak7e
+`);
+
 const files = {
   'about.txt': ABOUT,
   'contact.txt': CONTACT,
   'projects.txt': PROJECTS,
+  'cock.txt': BYPASS
 };
