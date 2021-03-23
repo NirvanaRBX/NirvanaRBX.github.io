@@ -32,7 +32,7 @@ term = new Terminal({
   },
 });
 term.write('\u001B[?25l');
-term.registerLinkMatcher(/https:\/\/\w+\.[^\s]*/, (event, uri) => window.open(uri, '_blank'));
+term.registerLinkMatcher(/http(?:s)?:\/\/\w+\.[^\s]*/, (event, uri) => window.open(uri, '_blank'));
 term.open(document.getElementById('terminal'));
 term.focus();
 let r=1
