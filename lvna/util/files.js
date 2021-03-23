@@ -3,9 +3,8 @@ function format(string) {
 }
 
 const ABOUT = format(`
-skidded website lllllllll
-100% by luna yeah
-https://maaslalani.com/ is cool too
+NirvanaRBX lead dev/founder
+CocoZ Support
 `);
 
 const CONTACT = format(`
@@ -15,9 +14,16 @@ Discord: https://discord.io/nirvanarbx
 `);
 
 const PROJECTS = format(`
-* Nirvana
-* Lego hax
+* NirvanaRBX
+  My main project!
+  The latest roblox exploit. Powering Freedom!
+  https://nirvanarbx.tk
+* FreedomHost
+  My upcoming https://astral.cool paste
+  Open to suggestions!
+  http://freedomhost.ml
 * School
+  AAAAAAAAAAAAAAAAAAAA
 `);
 
 const BYPASS = format(`
@@ -27,6 +33,5 @@ https://discord.gg/mk5qak7e
 const files = {
   'about.txt': ABOUT,
   'contact.txt': CONTACT,
-  'projects.txt': PROJECTS,
-  'cock.txt': BYPASS
+  'projects.txt': PROJECTS
 };
